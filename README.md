@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/392d948b-b15f-4de8-946d-355b61788da9/deploy-status)](https://app.netlify.com/sites/blissful-albattani-192973/deploys)
+
+
+
 ![LinkyLinky screengrab](screenshot.jpg)
 
 
