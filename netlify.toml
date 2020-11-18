@@ -19,9 +19,3 @@
   status = 200
   conditions = {Role = ["admin"]}
 
-
-
-[[redirects]]
-  from = "/auth/*"
-  to = "/*"
-  status = 401
