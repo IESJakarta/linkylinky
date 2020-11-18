@@ -8,20 +8,20 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index"
+  to = "/index.html"
   status = 404
   
   
   
-[[redirects]]
-  from = "/auth/*"
-  to = "/index.html"
-  status = 401
-  
-  
-  
 [[redirects]]  
-  from = "/*"
+  from = "/auth/*"
   to = "/auth/index.html"
   status = 200
   conditions = {Role = ["admin"]}
+
+
+
+[[redirects]]
+  from = "/auth/*"
+  to = "/*"
+  status = 401
