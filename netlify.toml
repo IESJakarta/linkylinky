@@ -8,14 +8,14 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index"
   status = 404
   
-  from = "/auth/"
+  from = "/auth/*"
   to = "/index.html"
   status = 401
   
   from = "/*"
   to = "/auth/index.html"
-  status = 200!
+  status = 200
   conditions = {Role = ["admin"]}
