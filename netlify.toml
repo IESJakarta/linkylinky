@@ -9,3 +9,17 @@
   from = "/*"
   to = "/index.html"
   status = 404
+
+[[redirects]]
+  from = "/"
+  to = "/auth/*"
+  status = 200
+  force = true
+  conditions = {Role = ["admin"]}
+  
+  
+[[redirects]]
+  from = "/auth/*"
+  to = "/index.html"
+  status = 401
+  force = true
