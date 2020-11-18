@@ -3,3 +3,9 @@
   command = "yarn run build"
   publish = "dist"
   environment = { NODE_VERSION = "8.9.0" }
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
