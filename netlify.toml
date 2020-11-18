@@ -11,10 +11,16 @@
   to = "/index"
   status = 404
   
+  
+  
+[[redirects]]
   from = "/auth/*"
   to = "/index.html"
   status = 401
   
+  
+  
+[[redirects]]  
   from = "/*"
   to = "/auth/index.html"
   status = 200
