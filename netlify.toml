@@ -1,6 +1,6 @@
 [build]
   Functions = "functions"
-  command = "yarn run build"
+  command = "yarn run build && cp _redirects dist/_redirects"
   publish = "dist"
   environment = { NODE_VERSION = "8.9.0" }
 
